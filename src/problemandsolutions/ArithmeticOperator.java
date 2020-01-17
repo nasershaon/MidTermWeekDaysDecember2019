@@ -12,14 +12,14 @@ public class ArithmeticOperator {
         double num1;
         double num2;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the first Number::");
+        System.out.print("Enter the first Number:");
         num1=sc.nextDouble();
-        System.out.print("Enter the Secound Number::");
+        System.out.print("Enter the Second Number:");
         num2=sc.nextDouble();
-        System.out.println("The Summation of the Two number is:: "+(num1+num2));
-        System.out.println("The Summation of the Two number is:: "+(num1-num2));
-        System.out.println("The Summation of the Two number is:: "+(num1*num2));
-        System.out.println("The Summation of the Two number is:: "+(num1/num2));
+        System.out.println("The Summation of the Two number is: "+(num1+num2));
+        System.out.println("The Subtraction of the Two number is: "+(num1-num2));
+        System.out.println("The Multifecation of the Two number is: "+(num1*num2));
+        System.out.println("The Devition of the Two number is: "+(num1/num2));
 
     }
 
