@@ -1,42 +1,65 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. A programming language is a formal language, which comprises a set of instructions that produce various kinds of output.
+Programming languages are used in computer programming to implement algorithms. Most programming languages consist of
+instructions for computers.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets.
+It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar),
+a documentation generator (Javadoc) and other tools needed in Java development.
 
 What is IDE?
-A.
-
-
+A. An integrated development environment (IDE) is a software suite that consolidates basic tools required to write and test software.
 
 What are the IDEs available in the market to support java?
-A.
-
-
+A. There is a multitude of IDEs available for working with Java. While Eclipse, IntelliJ IDEA, and NetBeans are the big three of Java, there are numerous other IDEs for developing apps effectively using Java.
 
 Explain the entire java life cycle.
+A. Life cycle of a java program tells us what happens right from the point when we type source code in a text editor to the point that source code is converted into machine code (0’s and 1’s).
+
+   There are three main stages in the life cycle of a java program. They are:
+   Editing the program >> Compiling the source code >> Executing the byte code
+
 what is class?
+A.>>Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+  A Class is like an object constructor, or a "blueprint" for creating objects.
+
 What is object?
+A.>>In computer science, an object can be a variable, a data structure, a function, or a method, and as such, is a value in memory referenced by an identifier.
+
 What is the entry point of an application?
+A.>>Application entry points. An application entry point identifies a resource that is an access point to an application. Application entry points are used to control users' access to different versions of an application that is deployed on a platform.
+
 Why main is static?
+A.>> Java program's main method has to be declared static because keyword static allows main to be called without creating an object of the class in which the main method is defined. In this case, main must be declared as public , since it must be called by code outside of its class when the program is started.
+
 Which class is the superclass of all classes?
+Java.lang.Object class is the root or superclass of the class hierarchy, which is present in java.lang package. All predefined classes and user-defined classes are the subclasses from Object class.
+
 What is difference between path and classpath variables?
+A.>>Path is an environment variable which is used by the operating system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files. 2). PATH is nothing but setting up an environment for operating system.
+
 What is the difference between an Interface and Abstract class?
+A.>>1) Abstract class can have abstract and non-abstract methods.	Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+Abstract class doesn't support multiple inheritance. Interface supports multiple inheritance. Abstract class can have final, non-final, static and non-static variables. Interface has only static and final variables.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.>>You cannot create an object of abstract class or interface since they are incomplete class (interface is not even considered as a class.) What you can do is to implement a subclass of abstract class which, of course, must not be abstract.
+
 what is Access Specifier?
+A.>> Access specifiers is called Access modifiers are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. In Java, having no keyword before defaults to the package-private modifier
+
 What is OOP ? Define each feature of java OOP.
-What is Java Package and which package is imported by default?
+A.>> Object-oriented programming (OOP) is a programming language model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.What is Java Package and which package is imported by default?
+Simply put, OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. Due to the organization of an object-oriented program, this method is also conducive to collaborative development where projects can be divided into groups. Additional benefits of OOP include code reusability, scalability  and efficiency.
+
 What is API? Name list of API that you have used so far.
+A.>>API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+
 Does java support multiple inheritance, explain why or why not?
+
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?

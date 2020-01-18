@@ -1,8 +1,7 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A.>>Data structure is a particular way of storing and organizing information in a computer so that it can be retrieved and used most productively. Different kinds of data structures are meant for different kinds of applications, and some are highly specialized to specific tasks.
 
 What are the various operations that can be performed on different Data Structures?
 List out the areas in which data structures are applied extensively?
@@ -17,6 +16,7 @@ what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?
 what is tree in data structure?
+A:>>A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees.
 what is graph in data structure?
 what is the difference between the HashTable and HashMap?
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
